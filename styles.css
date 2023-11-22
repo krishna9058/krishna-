@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #c03232;
+    color: #43da38;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+    text-align: center;
+
+  }
+  
+  .nav-links li a {
+    color: #1d1d20;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  header {
+    background-color: #39179e;
+    padding: 50px;
+    text-align: left;
+  }
+
+
+  /* About Me Section */
+  #about {
+    padding: 50px;
+    text-align: center;
+    
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px;
+    background-color: #27ac18;
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px;
+    text-align: center;
+    
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project a {
+    display: block;
+    margin-top: 10px;
+    
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  #contact-form button {
+    background-color: #a71c1c;
+    color: #151010;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #232020;
+    color: #1ba35f;
+    text-align: center;
+    padding: 0.1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  body{
+    background-color: yellow;
+  }
